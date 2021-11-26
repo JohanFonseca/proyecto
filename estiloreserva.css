@@ -1,0 +1,258 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+form{
+    margin: 0 auto; 
+    
+    text-align: center;
+}
+
+body{
+        font-family: 'Times New Roman', Times, serif;
+        background: url(./Imagenes/fuegitoalto.jpeg) 0px 0px;
+        height: 665px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding-top: 0px;
+        color: white
+        
+    }
+
+
+h1{
+    font-size: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.login-form{
+    padding-top: 200px;
+    margin: 0 auto;
+    background-size: cover;
+    font-size: 20px;
+  
+}
+
+ol, ul {
+    list-style: none;
+    
+}
+
+header {
+    background-color: rgba(32, 1, 1, 0.952);
+    height: 130px;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+header img{
+    float: right;
+    height: 110px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-radius:50%;
+
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.nav-main{
+    font-size: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 90px;
+    padding: 20px 0;
+}
+
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main ul li{
+    padding:50px;
+}
+
+footer {
+    width: 100%;
+    background:rgba(32, 1, 1, 0.952);
+    color: white;
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.container-footer-all {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    
+}
+
+.colum1 {
+    max-width: 400px;
+}
+
+.colum1 h6 {
+    font-size: 22px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.952);
+    margin-top: 20px;
+}
+
+
+.colum2{
+    max-width: 400px;
+}
+
+.colum2 h6{
+    font-size: 22px;
+}
+
+.fila {
+    margin-top: 20px;
+    display: flex;
+}
+
+.fila img {
+    width: 36px;
+    height: 36px;
+}
+
+
+.fila label{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #C7C7C7;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h6{
+    font-size: 22px;
+}
+
+.fila2{
+    margin-top: 20px;
+}
+
+.fila2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.fila2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+
+.container-footer{
+    width: 100%;
+    background: rgba(39, 0, 0, 0.952);
+}
+
+.footer2{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: #C7C7C7;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+
+@media screen and (max-width: 830px) {
+
+    .nav-main ul li {
+        font-size: 20px;
+        padding: 25px;
+
+    }
+
+    header img{
+        height: 65px;
+        padding: 2em;
+    }
+
+    .container-body{
+        flex-wrap: wrap;
+    }
+
+    .colum1{
+        max-width: 100%;
+    }
+
+    .colum2, .colum3{
+        margin-top: 40px;
+    }
+
+    
+    
+}
+
+
